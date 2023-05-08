@@ -5,7 +5,7 @@ body{
 .header,
 .footer{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background: #1f2937;
 }
@@ -14,8 +14,7 @@ body{
   font-size: 18px;
   color: #E5E7EB;
   text-decoration: none;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
 }
 .Logo-text{
   font-size: 24px;
@@ -24,6 +23,7 @@ body{
 .footer{
   font-size: 18px;
   color: #f9faf8;
+  justify-content: center;
 }
 .Logo-text{
   font-weight: bold;
@@ -33,4 +33,26 @@ body{
   display: flex;
   background: #1f2937;
   color: #f9faf8;
+  justify-content: space-between;
+  align-items: center;
+}
+.Main-text{
+  font-size: 48px;
+  font-weight: bolder;
+}
+.header,
+.footer,
+.intro,
+.randInfo,
+.signup,
+.quote{
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.left-side{
+  align-content: flex-start;
+}
+.right-side{
+  align-content: flex-end;
 }
