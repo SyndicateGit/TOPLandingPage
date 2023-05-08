@@ -1,6 +1,6 @@
 body{
   margin:0px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 }
 .header,
 .footer{
@@ -17,7 +17,7 @@ body{
   margin-left: 10px;
   margin-right: 10px;
 }
-.logo{
+.Logo-text{
   font-size: 24px;
   color: #f9faf8;
 }
@@ -25,6 +25,12 @@ body{
   font-size: 18px;
   color: #f9faf8;
 }
-.header{
+.Logo-text{
   font-weight: bold;
+}
+
+.intro{
+  display: flex;
+  background: #1f2937;
+  color: #f9faf8;
 }
