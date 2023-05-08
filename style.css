@@ -1,5 +1,6 @@
 body{
   margin:0px;
+  font-family: "Roboto";
 }
 .header,
 .footer{
@@ -23,4 +24,7 @@ body{
 .footer{
   font-size: 18px;
   color: #f9faf8;
+}
+.header{
+  font-weight: bold;
 }
