@@ -38,10 +38,12 @@ body{
   color: #f9faf8;
   justify-content: space-between;
   align-items: center;
+  gap:10px
 }
 .Main-text{
   font-size: 48px;
   font-weight: bolder;
+  width: 400px;
 }
 
 .header,
@@ -56,6 +58,7 @@ body{
 
 .left-side{
   align-content: flex-start;
+  width: 500px;
 }
 
 .right-side{
