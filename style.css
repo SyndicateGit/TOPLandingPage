@@ -68,7 +68,7 @@ body{
 
 .hobbies{
   display: flex;
-  justify-content:space-between;
+  justify-content:flex-start;
   align-items: center;
   margin: 10px;
   flex-wrap: wrap;
@@ -77,4 +77,5 @@ body{
 .hobby{
   width: 300px;
   height: 350px;
+  margin: 30px;
 }
