@@ -1,6 +1,7 @@
 body{
   margin:0px;
   font-family: "Roboto", sans-serif;
+
 }
 .header,
 .footer{
@@ -24,6 +25,8 @@ body{
   font-size: 18px;
   color: #f9faf8;
   justify-content: center;
+  padding-top: 10px;
+  margin-top: 5%;
 }
 .Logo-text{
   font-weight: bold;
@@ -72,9 +75,20 @@ body{
   align-items: center;
   flex-wrap: wrap;
   gap: 60px;
+
 }
 
 .hobby{
   width: 300px;
   height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  padding: 4%;
+  border: 1mm ridge;
+  border-color: #3882f6;
+  font-size: 18px;
+  border-radius: 30px;
 }
