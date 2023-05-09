@@ -68,14 +68,13 @@ body{
 
 .hobbies{
   display: flex;
-  justify-content:flex-start;
+  justify-content:space-evenly;
   align-items: center;
-  margin: 10px;
   flex-wrap: wrap;
+  gap: 60px;
 }
 
 .hobby{
   width: 300px;
   height: 350px;
-  margin: 30px;
 }
