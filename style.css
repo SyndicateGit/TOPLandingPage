@@ -40,10 +40,11 @@ body{
   font-size: 48px;
   font-weight: bolder;
 }
+
 .header,
 .footer,
 .intro,
-.randInfo,
+.aboutMe,
 .signup,
 .quote{
   padding-left: 150px;
@@ -53,6 +54,15 @@ body{
 .left-side{
   align-content: flex-start;
 }
+
 .right-side{
   align-content: flex-end;
 }
+
+.title{
+  font-size: 36px;
+  text-align: center;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
