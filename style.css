@@ -36,7 +36,7 @@ body{
   display: flex;
   background: #1f2937;
   color: #f9faf8;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   gap:10px
 }
@@ -44,6 +44,7 @@ body{
   font-size: 48px;
   font-weight: bolder;
   width: 400px;
+  margin: 10px;
 }
 
 .header,
@@ -60,9 +61,12 @@ body{
   align-content: flex-start;
   width: 500px;
 }
-
+.left-side *{
+  margin: 10px;
+}
 .right-side{
   align-content: flex-end;
+  margin: 10px;
 }
 
 .title{
@@ -70,6 +74,7 @@ body{
   text-align: center;
   font-weight: bolder;
   color: #1f2937;
+  margin: 10px;
 }
 
 .hobbies{
@@ -83,7 +88,8 @@ body{
 
 .hobby{
   width: 300px;
-  height: 350px;
+  height: 380px;
+  min-height: 350px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -93,5 +99,12 @@ body{
   border: 1mm ridge;
   border-color: #3882f6;
   font-size: 18px;
+  font-weight: bold;
   border-radius: 30px;
+  overflow: hidden;
+}
+
+img{
+  margin: 5px;
+  padding: 5px;
 }
